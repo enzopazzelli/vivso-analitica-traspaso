@@ -1,8 +1,6 @@
 # Plan 2 · Base propia, sincronizador, historia y origen MySQL
 
-> **Para quien lo ejecuta (persona o agente):** seguí las tareas en orden y marcá cada casilla `- [ ]`. Si tu agente
-> tiene las skills de superpowers, usá `superpowers:subagent-driven-development` (recomendado) o
-> `superpowers:executing-plans`. Leé antes `../LEEME.md` y las secciones 6, 7 y 11 de `../especificacion.md`.
+> **Para quien lo ejecuta (persona o agente):** seguí las tareas en orden y marcá cada casilla `- [ ]`. Leé antes `../LEEME.md` y las secciones 6, 7 y 11 de `../especificacion.md`.
 
 **Objetivo:** que el servicio guarde en su propia base cada lectura del origen como versiones, deduzca los eventos que
 el sistema Java no guarda, arme la línea de tiempo de cada expediente, lea la base real de Desarrollo (MySQL) sin
@@ -31,7 +29,7 @@ describen una sola vez en `origenes/vivso3.py`; de ahí salen las consultas del 
 - Fechas y horas: siempre hora de Buenos Aires sin zona (`calendario.ahora_local()`), sin microsegundos.
 - Un origen por base: datos de `simulado` y de `mysql` nunca se mezclan.
 - El núcleo no importa `fastapi` ni `streamlit`.
-- Documentos sin «Plan N», «Claude», «superpowers» ni el host de Aiven; diagramas Mermaid 11.
+- Documentos sin «Plan N», sin nombres de herramientas de IA ni el host de Aiven; diagramas Mermaid 11.
 - Commits en español, sin coautoría ni menciones a IA; suite completa en verde antes de cada commit.
 
 ## Foco de revisión

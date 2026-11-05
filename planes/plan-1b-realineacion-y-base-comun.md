@@ -17,8 +17,7 @@
 >   60 segundos.
 
 > **Para quien lo ejecuta (persona o agente):** seguí las tareas en orden y marcá cada casilla `- [ ]` al terminarla.
-> Si tu agente tiene las skills de superpowers, usá `superpowers:subagent-driven-development` (recomendado) o
-> `superpowers:executing-plans`. Antes de empezar leé `../LEEME.md` (reglas del equipo) y las secciones de
+> Antes de empezar leé `../LEEME.md` (reglas del equipo) y las secciones de
 > `../especificacion.md` que nombra cada tarea.
 
 **Objetivo:** que el dominio, el esquema, el simulador y los documentos de `vivso-analitica` coincidan con el sistema
@@ -44,7 +43,7 @@ rápido (son 10 tareas chicas), mientras el resto lee la especificación y prepa
 - Nunca se leen columnas con `token`, `password`, `contrasena`, `clave`, `secret` o `hash` en el nombre; de `familia` y
   `familiar`, solo `id_familia`, la cantidad de familiares y `antiguedad_rancho`.
 - Ningún dato real en el repositorio: el simulador inventa todo.
-- Los documentos de `README.md` y `docs/*.md` no pueden decir «Plan N», «Claude», «superpowers» ni el host de Aiven
+- Los documentos de `README.md` y `docs/*.md` no pueden nombrar los planes («Plan N») ni herramientas de IA, ni el host de Aiven
   (`tests/test_documentos.py` lo controla); llevan diagramas Mermaid compatibles con Mermaid 11 (GitHub).
 - Commits en español, descriptivos, sin líneas de coautoría ni menciones a herramientas de IA.
 - Antes de cada commit: `.venv\Scripts\python.exe -m pytest -q` con todo en verde.

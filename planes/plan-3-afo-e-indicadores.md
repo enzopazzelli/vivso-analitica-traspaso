@@ -1,8 +1,6 @@
 # Plan 3 · AFO por etapas, semáforo e indicadores
 
-> **Para quien lo ejecuta (persona o agente):** seguí las tareas en orden y marcá cada casilla `- [ ]`. Si tu agente
-> tiene las skills de superpowers, usá `superpowers:subagent-driven-development` (recomendado) o
-> `superpowers:executing-plans`. Leé antes `../LEEME.md` y las secciones 5.1, 7.5, 8 y 9 de `../especificacion.md`.
+> **Para quien lo ejecuta (persona o agente):** seguí las tareas en orden y marcá cada casilla `- [ ]`. Leé antes `../LEEME.md` y las secciones 5.1, 7.5, 8 y 9 de `../especificacion.md`.
 
 **Objetivo:** calcular, a partir de una lectura y su historia de eventos, el AFO por etapas de cada obra, su semáforo
 y los 17 indicadores de la especificación, y dejar listas las respuestas JSON que muestran la API y el tablero.
@@ -34,7 +32,7 @@ hacer en paralelo. **Lo necesitan:** los Planes 4, 5 y 7.
   usuarios sí pueden aparecer (decisión 5), nunca tokens ni contraseñas.
 - Nada de este plan importa `fastapi` ni `streamlit`; ninguna prueba usa la red (el calendario de las pruebas se arma con
   feriados fijos).
-- Documentos sin «Plan N», «Claude», «superpowers» ni el host de Aiven; diagramas Mermaid 11; lenguaje llano.
+- Documentos sin «Plan N», sin nombres de herramientas de IA ni el host de Aiven; diagramas Mermaid 11; lenguaje llano.
 - Commits en español, sin coautoría ni menciones a IA; suite completa en verde antes de cada commit.
 
 ## Foco de revisión

@@ -1,9 +1,7 @@
 # Plan 5 · Tablero
 
-> **Para quien lo ejecuta (persona o agente):** seguí las tareas en orden y marcá cada casilla `- [ ]`. Si tu agente
-> tiene las skills de superpowers, usá `superpowers:subagent-driven-development` (recomendado) o
-> `superpowers:executing-plans`; si tiene una skill de visualización de datos (por ejemplo `dataviz`) o de diseño de
-> interfaces, usala para los gráficos y la disposición. Leé antes `../LEEME.md` y las secciones 9, 12 y la decisión 6 de
+> **Para quien lo ejecuta (persona o agente):** seguí las tareas en orden y marcá cada casilla `- [ ]`. Si tu agente sabe de visualización de datos o de diseño de
+> interfaces, pedile que lo aplique a los gráficos y la disposición. Leé antes `../LEEME.md` y las secciones 9, 12 y la decisión 6 de
 > `../especificacion.md`.
 
 **Objetivo:** un tablero Streamlit para el área y para Desarrollo que muestre, en lenguaje llano, el estado de cada obra
@@ -36,7 +34,7 @@ los componentes contra respuestas de ejemplo.
 - El semáforo usa colores **y** texto (no solo color), con buen contraste en modo claro y oscuro.
 - El paquete `analitica` (núcleo) no importa `streamlit`; solo `tablero/` lo hace.
 - Ninguna prueba usa la red (el modo API se prueba con `httpx.MockTransport`).
-- Documentos sin «Plan N», «Claude», «superpowers» ni el host de Aiven; diagramas Mermaid 11.
+- Documentos sin «Plan N», sin nombres de herramientas de IA ni el host de Aiven; diagramas Mermaid 11.
 - Commits en español, sin coautoría ni menciones a IA; suite completa en verde antes de cada commit.
 
 ## Foco de revisión

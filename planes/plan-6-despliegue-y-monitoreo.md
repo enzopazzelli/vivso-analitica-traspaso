@@ -1,7 +1,6 @@
 # Plan 6 · Despliegue y monitoreo (Etapas 8 y 9)
 
-> **Para quien lo ejecuta (persona o agente):** seguí las tareas en orden y marcá cada casilla `- [ ]`. Si tu agente
-> tiene las skills de superpowers, usá `superpowers:executing-plans`. Leé antes `../LEEME.md`, la sección 13 de
+> **Para quien lo ejecuta (persona o agente):** seguí las tareas en orden y marcá cada casilla `- [ ]`. Leé antes `../LEEME.md`, la sección 13 de
 > `../especificacion.md` y las Etapas 8 y 9 de la guía de la cátedra (`pp2 devs/pp3/Guia_Detallada_PP3_v1.0.docx`).
 
 **Objetivo:** que el servicio se pueda instalar y correr en un servidor con un solo comando, que se pueda probar contra
@@ -34,7 +33,7 @@ decisiones 1, 2, 5 y 19.
   donde se instale (con acceso restringido si hay datos reales).
 - La demo pública (Streamlit Community Cloud) usa **solo** el origen simulado.
 - Ninguna prueba usa la red ni necesita Docker (lo que exige Docker se verifica a mano y se anota).
-- Documentos sin «Plan N», «Claude», «superpowers» ni el host de Aiven; diagramas Mermaid 11; lenguaje llano.
+- Documentos sin «Plan N», sin nombres de herramientas de IA ni el host de Aiven; diagramas Mermaid 11; lenguaje llano.
 - Commits en español, sin coautoría ni menciones a IA; suite completa en verde antes de cada commit.
 
 ## Foco de revisión
@@ -124,7 +123,7 @@ def test_ida_y_vuelta_por_las_tablas_de_java():
                                       lectura.tabla(tabla).sort_values(orden).reset_index(drop=True), check_like=False)
 
 
-@pytest.mark.parametrize("url", ["mysql+pymysql://lector:x@vivsosql-ejemplo.h.aivencloud.com:18379/vivso3",
+@pytest.mark.parametrize("url", ["mysql+pymysql://lector:x@vivsosql-ejemplo.h.aivencloud.com:12345/vivso3",
                                  "mysql+pymysql://lector:x@servidor-real:3306/vivso3"])
 def test_nunca_en_la_base_real(url):
     cfg = cargar_configuracion({"ANALITICA_MYSQL_URL": "mysql+pymysql://lector:x@servidor-real:3306/vivso3"})

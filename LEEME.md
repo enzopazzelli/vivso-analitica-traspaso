@@ -1,7 +1,7 @@
 # Traspaso de `vivso-analitica` · PP3 · Grupo 8
 
 **Preparado el 04/11/2026** para que el grupo termine el componente de Ciencia de Datos de PP3 trabajando cada uno con
-su agente (Claude Code, Codex, Cursor u otro). Empezá por acá.
+su agente de programación. Empezá por acá.
 
 ## 1. Qué hay en esta carpeta
 
@@ -19,7 +19,7 @@ su agente (Claude Code, Codex, Cursor u otro). Empezá por acá.
 | `planes/plan-8-cierre-y-presentacion.md` | Glosario, carpeta de la cátedra, Ficha de PP3, presentación final |
 
 **Esta carpeta no va al repositorio del entregable** (regla del grupo: las especificaciones y los planes no se suben
-ahí; ver la sección 5). Vive en su propio repositorio privado, `https://github.com/enzopazzelli/vivso-analitica-traspaso`,
+ahí; ver la sección 5). Vive en su propio repositorio, `https://github.com/enzopazzelli/vivso-analitica-traspaso`,
 y cada uno lo clona **al lado** de su copia del entregable, con este nombre de carpeta (los planes la buscan así):
 
 ```powershell
@@ -70,8 +70,9 @@ Actualizá esta sección cuando termines un plan (fecha, plan, cantidad de prueb
 ## 3. Paso 0: preparar el entorno (una vez por persona)
 
 1. **El código** está en `https://github.com/enzopazzelli/vivso-analitica` y esta carpeta en
-   `https://github.com/enzopazzelli/vivso-analitica-traspaso` (los dos **privados**, rama `main`). Pedir acceso como
-   colaborador a los dos con tu usuario de GitHub y clonarlos lado a lado como dice la sección 1.
+   `https://github.com/enzopazzelli/vivso-analitica-traspaso` (los dos públicos, rama `main`). Para clonarlos alcanza
+   con el enlace (sección 1). Para subir tus ramas, pedile a Enzo que te sume como colaborador con tu usuario de GitHub,
+   o trabajá con un *fork* y un *pull request*.
 2. **Python 3.13** y el entorno (Windows, PowerShell, desde `vivso-analitica/`):
 
    ```powershell
@@ -105,8 +106,6 @@ Actualizá esta sección cuando termines un plan (fecha, plan, cantidad de prueb
    el sistema de Desarrollo, parate y explicame la diferencia antes de seguir.
    ```
 
-   Si tu agente tiene las skills de superpowers, el plan indica cuál usar (`subagent-driven-development` o
-   `executing-plans`).
 3. **Revisá lo que hace:** al final de cada tarea, que las pruebas pasen y que el cambio sea lo que dice el plan. El
    profesor acepta que usemos IA, pero pide **revisar los contenidos** antes de compartir.
 4. **Al terminar el plan:** suite completa en verde, un *pull request* a `main`, y que **otra persona del grupo** lo
@@ -126,8 +125,8 @@ Valen para todos los planes (cada plan las repite en «Restricciones globales»)
   pública: para todo eso se usa el simulado.
 - **El servicio nunca escribe en la base de Desarrollo.**
 - **Pruebas primero**, ninguna prueba usa la red, y la suite completa en verde antes de cada commit.
-- **Sin rastros del trabajo con IA en el repositorio:** nada de `Co-Authored-By`, «Generated with», menciones a Claude u
-  otras herramientas, ni estas especificaciones y planes (las pruebas de `tests/test_documentos.py` controlan los
+- **Sin rastros del trabajo con IA en el repositorio:** nada de `Co-Authored-By`, «Generated with», menciones a
+  herramientas de IA, ni estas especificaciones y planes (las pruebas de `tests/test_documentos.py` controlan los
   documentos). Muchos agentes agregan esas líneas solos: revisá cada mensaje de commit.
 - **Commits** en español, descriptivos, uno por tarea («Calcular el AFO por etapas con el plan contra lo real»).
 - **Diagramas Mermaid** en los documentos (uno general y uno por cada flujo chico), compatibles con Mermaid 11 (el de
@@ -202,8 +201,8 @@ flowchart TB
 
 Cada plan termina con sus decisiones; estas son las generales. La opción recomendada va primero.
 
-1. **Cuándo hacer público el repositorio:** hoy es privado. Hacerlo público al cierre (para la demo en Streamlit
-   Community Cloud y la carpeta de la cátedra) o dejarlo privado y dar acceso a quien lo pida.
+1. **Permisos para subir cambios:** los repositorios son públicos, pero para subir ramas hay que ser colaborador.
+   Sumar a los cuatro como colaboradores (recomendado) o que cada uno trabaje con *fork* y *pull request*.
 2. **Frecuencia de sincronización:** se decide con el experimento del Plan 2 (la especificación propone 30 minutos).
 3. **Rechazo en el simulador:** en 0 mientras nadie pueda rechazar en Java (recomendado).
 4. **Demo pública:** Streamlit Community Cloud con el simulado (recomendado) o solo en local.
@@ -212,8 +211,8 @@ Cada plan termina con sus decisiones; estas son las generales. La opción recome
 
 | Qué | Dónde |
 | :--- | :--- |
-| El entregable de PP3 | `https://github.com/enzopazzelli/vivso-analitica` (privado) |
-| Esta carpeta: especificación y planes | `https://github.com/enzopazzelli/vivso-analitica-traspaso` (privado) |
+| El entregable de PP3 | `https://github.com/enzopazzelli/vivso-analitica` |
+| Esta carpeta: especificación y planes | `https://github.com/enzopazzelli/vivso-analitica-traspaso` |
 | Antecedente de PP1 y PP2 (análisis de VISOC, simulador y tablero anteriores) | repositorio `pp-vivso-python` (no se modifica) |
 | Sistema de Desarrollo | `https://github.com/PaganiB/vivso`, rama `develop` |
 | Carpeta de la cátedra | `VIVSO_PP_ITSE/` (Drive del grupo) |

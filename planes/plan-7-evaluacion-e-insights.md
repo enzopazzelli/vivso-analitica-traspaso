@@ -1,7 +1,6 @@
 # Plan 7 · Evaluación e insights (Etapas 6 y 7)
 
-> **Para quien lo ejecuta (persona o agente):** seguí las tareas en orden y marcá cada casilla `- [ ]`. Si tu agente
-> tiene las skills de superpowers, usá `superpowers:executing-plans`. Leé antes `../LEEME.md`, la sección 15 de
+> **Para quien lo ejecuta (persona o agente):** seguí las tareas en orden y marcá cada casilla `- [ ]`. Leé antes `../LEEME.md`, la sección 15 de
 > `../especificacion.md` (criterios de la Etapa 6) y las Etapas 6 y 7 de `pp2 devs/pp3/Guia_Detallada_PP3_v1.0.docx`.
 
 **Objetivo:** medir en qué grado el servicio cumple su objetivo con los 8 criterios fijados en la especificación, y
@@ -32,7 +31,7 @@ cortas para que las pruebas sean rápidas.
   dice de qué fuente sale.
 - Lenguaje llano y sin «no se puede» tajante: decir qué adaptación o qué dato haría falta (preferencia del grupo y
   devolución del profesor).
-- Documentos sin «Plan N», «Claude», «superpowers» ni el host de Aiven; diagramas Mermaid 11.
+- Documentos sin «Plan N», sin nombres de herramientas de IA ni el host de Aiven; diagramas Mermaid 11.
 - Commits en español, sin coautoría ni menciones a IA; suite completa en verde antes de cada commit.
 
 ## Foco de revisión

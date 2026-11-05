@@ -1,8 +1,6 @@
 # Plan 4 · API `/v1`
 
-> **Para quien lo ejecuta (persona o agente):** seguí las tareas en orden y marcá cada casilla `- [ ]`. Si tu agente
-> tiene las skills de superpowers, usá `superpowers:subagent-driven-development` (recomendado) o
-> `superpowers:executing-plans`. Leé antes `../LEEME.md` y las secciones 2 (decisiones 2 y 19), 10 y 11 de
+> **Para quien lo ejecuta (persona o agente):** seguí las tareas en orden y marcá cada casilla `- [ ]`. Leé antes `../LEEME.md` y las secciones 2 (decisiones 2 y 19), 10 y 11 de
 > `../especificacion.md`.
 
 **Objetivo:** publicar los datos del servicio en una API JSON de solo lectura, con claves, para nuestro tablero y para
@@ -34,7 +32,7 @@ Etapa 6.
 - CORS solo para los orígenes de `ANALITICA_CORS_ORIGENES`.
 - El núcleo (`analitica/` salvo `analitica/api/`) no importa `fastapi`; la prueba
   `test_el_nucleo_no_carga_fastapi_ni_streamlit` lo controla.
-- Documentos sin «Plan N», «Claude», «superpowers» ni el host de Aiven; diagramas Mermaid 11.
+- Documentos sin «Plan N», sin nombres de herramientas de IA ni el host de Aiven; diagramas Mermaid 11.
 - Commits en español, sin coautoría ni menciones a IA; suite completa en verde antes de cada commit.
 
 ## Foco de revisión

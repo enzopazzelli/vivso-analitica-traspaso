@@ -1,8 +1,8 @@
 # Plan 8 · Cierre: glosario, carpeta de la cátedra, Ficha de PP3 y presentación final
 
 > **Para quien lo ejecuta (persona o agente):** seguí las tareas en orden y marcá cada casilla `- [ ]`. Este plan es
-> sobre todo de documentos y coordinación: no lleva TDD salvo en la Tarea 1. Si tu agente tiene skills para Word
-> (`docx`), presentaciones (`pptx` o un tipo de artefacto de diapositivas) o documentos, usalas en las Tareas 4 y 5. Leé
+> sobre todo de documentos y coordinación: no lleva TDD salvo en la Tarea 1. Si tu agente puede trabajar con Word
+> o con presentaciones, usalo en las Tareas 4 y 5. Leé
 > antes `../LEEME.md`, `pp2 devs/pp3/Guia_General_del_Alumno_v1.0.docx` (sección 4, la Ficha) y la sección «Al cerrar
 > PP3» de `pp2 devs/pp3/Guia_Detallada_PP3_v1.0.docx`.
 
@@ -25,7 +25,7 @@ entrega. La presentación cuenta el recorrido completo (de PP1 a PP3) con foco e
 - **Ningún dato real** en la carpeta de la cátedra, en la presentación ni en la demo: ni nombres, ni DNI, ni números de
   expediente reales. Las capturas se toman con el simulado.
 - Sin «no se puede» tajante: decir qué adaptación o qué dato haría falta.
-- Los documentos del repositorio siguen sin «Plan N», «Claude», «superpowers» ni el host de Aiven.
+- Los documentos del repositorio siguen sin «Plan N», sin nombres de herramientas de IA ni el host de Aiven.
 - Commits en español, sin coautoría ni menciones a IA.
 
 ## Foco de revisión
